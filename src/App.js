@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Navbar } from "./components_urbanic/Navbar";
+import PlayerComponent from "./components_urbanic/PlayerComponent";
+import UseEffect from "./components_urbanic/UseEffect";
+import "../node_modules/bootstrap/dist/css/bootstrap-grid.min.css";
+import { HashRouter, Routes } from "react-router-dom";
+import Mainsection from "./components_urbanic/Mainsection";
+import Footersection from "./components_urbanic/Footersection";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <HashRouter />
+      <header />
+      <Navbar />
+      <Routes />
+      <Routes />
+      <Mainsection />
+      <PlayerComponent />
+      <UseEffect />
+      <Footersection />
     </div>
   );
 }
