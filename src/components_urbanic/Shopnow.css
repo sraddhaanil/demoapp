@@ -1,0 +1,44 @@
+
+
+.shop {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 11px;
+    width: 275px;
+    display:inline-block;
+  }
+  
+  .shop-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  .shop-content {
+    padding: 16px;
+  }
+  
+  .shop-title {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  
+  .shop-description {
+    color: #555;
+  }
+
+  .inline-container {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .inline-heading {
+    margin-right: 1200px; 
+  }
+  
+  .inline-link {
+    text-decoration: none; 
+    color: black; 
+  }
+  

@@ -1,0 +1,31 @@
+
+
+.infocus-comp {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 16px;
+    
+  }
+  
+  .infocus-comp-img {
+    width: 50%;
+    height: 960px;
+    object-fit: cover;
+    margin: 15px;
+  }
+  
+  .infocus-video-player {
+    width: 50%; 
+    height: 80%;
+  }
+  
+  .infocus-com-content {
+    padding: 16px;
+  }
+  
+
+  
+ 
+  

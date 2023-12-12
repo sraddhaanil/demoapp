@@ -1,0 +1,20 @@
+.navbar{
+    background-color: white;
+    padding:10px;
+    margin: 0%;
+    
+}
+
+.navbar-brand{
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.navlink{
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 0.8rem;
+}
+

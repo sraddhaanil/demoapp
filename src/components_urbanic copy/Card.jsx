@@ -1,7 +1,9 @@
-import React from "react";
-import "./Card.css";
+// CardComponent.js
 
-const Card = ({ title, description, imageUrl }) => {
+import React from 'react';
+import './CardComponent.css'; // Import your CSS file for styling
+
+const CardComponent = ({ title, description, imageUrl }) => {
   return (
     <div className="card">
       <img src={imageUrl} alt={title} className="card-image" />
@@ -13,4 +15,4 @@ const Card = ({ title, description, imageUrl }) => {
   );
 };
 
-export default Card;
+export default CardComponent;
