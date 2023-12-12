@@ -3,57 +3,59 @@ import "../components_urbanic/Navbar.css";
 export function Navbar() {
   return (
     <div className="navbar">
-      <Link to="/newin" className="navlink text-white">
-        Urbanic
-      </Link>
+      <nav class="navbar navbar-light bg-light ">
+        <Link class="navbar-brand" to="/urbanic">
+          Urbanic
+        </Link>
 
-      <Link to="/newin" className="navlink text-white">
-        NEW IN
-      </Link>
+        <Link to="/newin" className="navlink ">
+          NEW IN
+        </Link>
 
-      <Link to="/christmas" className="navlink text-white">
-        CHRISTMAS
-      </Link>
+        <Link to="/christmas" className="navlink ">
+          CHRISTMAS
+        </Link>
 
-      <Link to="/trending" className="navlink text-white">
-        TRENDING
-      </Link>
+        <Link to="/trending" className="navlink ">
+          TRENDING
+        </Link>
 
-      <Link to="/occasion" className="navlink text-white">
-        OCCASION
-      </Link>
+        <Link to="/occasion" className="navlink ">
+          OCCASION
+        </Link>
 
-      <Link to="/campaing" className="navlink text-white">
-        CAMPAING
-      </Link>
+        <Link to="/campaing" className="navlink ">
+          CAMPAING
+        </Link>
 
-      <Link to="/colorpop" className="navlink text-white">
-        COLORPOP
-      </Link>
+        <Link to="/colorpop" className="navlink ">
+          COLORPOP
+        </Link>
 
-      <Link to="/clothing" className="navlink text-white">
-        CLOTHING
-      </Link>
+        <Link to="/clothing" className="navlink ">
+          CLOTHING
+        </Link>
 
-      <Link to="/dresses" className="navlink text-white">
-        DRESSES
-      </Link>
+        <Link to="/dresses" className="navlink ">
+          DRESSES
+        </Link>
 
-      <Link to="/knitwear" className="navlink text-white">
-        kNITWEAR
-      </Link>
+        <Link to="/knitwear" className="navlink ">
+          KNITWEAR
+        </Link>
 
-      <Link to="/denim" className="navlink text-white">
-        DENIM
-      </Link>
+        <Link to="/denim" className="navlink ">
+          DENIM
+        </Link>
 
-      <Link to="/sports" className="navlink text-white">
-        SPORTS
-      </Link>
+        <Link to="/sports" className="navlink">
+          SPORTS
+        </Link>
 
-      <Link to="/swimmies" className="navlink text-white">
-        SWIMMIES
-      </Link>
+        <Link to="/swimmies" className="navlink">
+          SWIMMIES
+        </Link>
+      </nav>
     </div>
   );
 }

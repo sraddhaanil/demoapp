@@ -6,7 +6,15 @@ function PlayerComponent() {
   const playerRef = useRef(null);
   return (
     <div>
-      <ReactPlayer ref={playerRef} url={VIDEO_PATH} controls={true} />
+      <ReactPlayer
+        ref={playerRef}
+        url={VIDEO_PATH}
+        controls={true}
+        playing={true}
+        loop={true}
+        width="100%"
+        height="70%"
+      />
     </div>
   );
 }

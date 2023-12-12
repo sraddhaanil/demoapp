@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import {Assets} from "../Assets"
 
-const Card = ({ product }) => {
-  const { id, title, thumbnail, price, description } = product;
-  console.log("products", product);
+const Card = ({ Asset }) => {
+  const { id, title, thumbnail, price, description } = Asset;
+  console.log("Assets", Asset);
   return (
     <div className="col card" key={id}>
       <img
