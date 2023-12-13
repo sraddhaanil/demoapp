@@ -11,6 +11,7 @@ function PlayerComponent() {
         url={VIDEO_PATH}
         controls={true}
         playing={true}
+        muted={true}
         loop={true}
         width="100%"
         height="70%"

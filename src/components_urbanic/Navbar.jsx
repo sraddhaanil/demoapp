@@ -5,7 +5,7 @@ export function Navbar() {
     <div className="navbar">
       <nav class="navbar navbar-light bg-light ">
         <Link class="navbar-brand" to="/urbanic">
-          Urbanic
+          Urban
         </Link>
 
         <Link to="/newin" className="navlink ">

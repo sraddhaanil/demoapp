@@ -3,7 +3,7 @@ import Card from "../components_urbanic/Card";
 
 const Mainsection = () => {
   return (
-    <div>
+    <div className="d-flex">
       <Card
         title="Mermaid Skirt"
         description="MRP

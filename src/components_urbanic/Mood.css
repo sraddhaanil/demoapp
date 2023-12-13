@@ -1,28 +1,32 @@
-
-
-.card {
+.mood {
     overflow: hidden;
     margin: 11px;
-    width: 275px;
+    width: 478px;
     display:inline-block;
   }
   
-  .card-image {
+  .mood-image {
     width: 100%;
     height: 500px;
     object-fit: cover;
   }
   
-  .card-content {
+  .mood-content {
     padding: 16px;
   }
   
-  .card-title {
+  .mood-title {
     font-size: 1.2rem;
     margin-bottom: 8px;
   }
   
-  .card-description {
+  .mood-description {
     color: #555;
+  }
+
+  h1{
+ font-size: 2rem;
+ font-family: Georgia,serif;
+ margin: 18px;
   }
   

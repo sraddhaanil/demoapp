@@ -7,6 +7,7 @@ import Mainsection from "./components_urbanic/Mainsection";
 import Category from "./components_urbanic/Category";
 import Infocus from "./components_urbanic/Infocus";
 import Bestsellers from "./components_urbanic/Bestsellers";
+import Moodcomp from "./components_urbanic/Moodcomp";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Category />
         <Infocus />
         <Bestsellers />
+        <Moodcomp />
         <Footersection />
       </HashRouter>
     </div>

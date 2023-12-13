@@ -21,15 +21,13 @@
 
 import React from "react";
 import CardComponent from "./CardComponent";
-import "./CardComponent.css"; // Make sure to import your main CSS file if needed
+import "./CardComponent.css";
 
 const Category = () => {
   return (
     <div className="app-container">
       <div className="card-slider">
         <CardComponent />
-
-        {/* Add more CardComponents as needed */}
       </div>
     </div>
   );

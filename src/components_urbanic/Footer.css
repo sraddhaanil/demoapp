@@ -1,0 +1,23 @@
+/* Replace with your desired styles */
+.white-section {
+    background-color: rgb(54, 53, 53);
+    color: black;
+    padding: 20px;
+  }
+  
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icon {
+    font-size: 24px;
+    margin: 0 10px;
+    color:white;
+  }
+  
+  .footp{
+    text-align: center;
+    color: white;
+  }
+  

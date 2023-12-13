@@ -1,19 +1,17 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import ReactPlayer from "react-player";
 import { useRef } from "react";
+import ReactPlayer from "react-player";
 import "./Infocus.css";
 
 const Infocus = () => {
-  const navigate = useNavigate();
   const VIDEO_PATH =
     "https://video-product.urbanic.com/invoice-file/189aeb41e1ef45ff84a4ce32f0735820";
 
   const playerRef = useRef(null);
 
   const handleClick = () => {
-    // Navigate to another route on click
-    navigate("/another");
+    // Open an external URL in the same window
+    window.location.href = "https://in.urbanic.com/activity/pullovers-3564";
   };
 
   return (
@@ -31,16 +29,14 @@ const Infocus = () => {
           url={VIDEO_PATH}
           controls={true}
           playing={true}
+          muted={true}
           loop={true}
           width="100%"
           height="70%"
         />
       </div>
 
-      {/* Add more content or information here */}
-      <div className="infocus-com-content">
-        {/* Add other content or information here */}
-      </div>
+      <div className="infocus-com-content"></div>
     </div>
   );
 };

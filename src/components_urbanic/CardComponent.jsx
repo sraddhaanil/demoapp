@@ -19,12 +19,10 @@ const CardComponent = () => {
         alt="img-3"
         className="card-comp-img"
       />
-      
-      <div className="card-com-content">
-        {/* Add other content or information here */}
-      </div>
+
+      <div className="card-com-content"></div>
     </div>
   );
-};  
+};
 
 export default CardComponent;
