@@ -1,11 +1,25 @@
 import { Link } from "react-router-dom";
+import React, { useState } from "react";
 import "../components_urbanic/Navbar.css";
+
 export function Navbar() {
+  const [isLoggedIn, setLoggedIn] = useState(false);
+
+  const handleSignInOut = () => {
+    setLoggedIn(!isLoggedIn);
+
+    if (isLoggedIn) {
+      alert("Signed Out!");
+    } else {
+      alert("Signed In!");
+    }
+  };
+
   return (
     <div className="navbar">
       <nav class="navbar navbar-light bg-light ">
         <Link class="navbar-brand" to="/urbanic">
-          Urban
+          Urbanic
         </Link>
 
         <Link to="/newin" className="navlink ">
@@ -49,12 +63,16 @@ export function Navbar() {
         </Link>
 
         <Link to="/sports" className="navlink">
-          SPORTS
+          SPORTSS
         </Link>
 
         <Link to="/swimmies" className="navlink">
           SWIMMIES
         </Link>
+
+        <button onClick={handleSignInOut} className="btn-navlink">
+          {isLoggedIn ? "Sign Out" : "Sign In"}
+        </button>
       </nav>
     </div>
   );

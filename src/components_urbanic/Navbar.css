@@ -16,7 +16,29 @@
 .navlink{
     color: black;
     text-decoration: none;
-    padding-left: 20px;
+    padding-left: 25px;
     font-size: 0.8rem;
 }
+/* Navbar.css or your stylesheet */
+
+.btn-navlink {
+    background-color: #000000;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 90px;
+    width: 10%;
+  }
+  
+  .signedIn {
+    background-color: #dc3545; /* Change color for signed-in state */
+  }
+  
+  .signedOut {
+    background-color: #007bff; /* Change color for signed-out state */
+  }
+  
 

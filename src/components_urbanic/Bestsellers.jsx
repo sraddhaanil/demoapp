@@ -1,6 +1,7 @@
 import React from "react";
 import Shopnow from "./Shopnow";
 import { Link } from "react-router-dom";
+import "./Bestseller.css";
 
 const Bestsellers = () => {
   const handleNavigate = () => {

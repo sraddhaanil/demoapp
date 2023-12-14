@@ -1,15 +1,19 @@
 import React from "react";
 import Card from "../components_urbanic/Card";
+import "./Mainsection.css";
+import { Link } from "react-router-dom";
 
 const Mainsection = () => {
   return (
     <div className="d-flex">
-      <Card
-        title="Mermaid Skirt"
-        description="MRP
+      <Link to="./Mer.jsx">
+        <Card
+          title="Mermaid Skirt"
+          description="MRP
         ₹1,390"
-        imageUrl="https://img101.urbanic.com/v1/2eb08615cf854f6ab86215068f6bbebb.webp"
-      />
+          imageUrl="https://img101.urbanic.com/v1/2eb08615cf854f6ab86215068f6bbebb.webp"
+        />
+      </Link>
       <Card
         title="Patchwork Halter Top"
         description="MRP
