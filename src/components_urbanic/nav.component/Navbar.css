@@ -1,0 +1,102 @@
+/* Header Actions */
+.header-actions {
+  background-color: #f8f8f8;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo and Brand */
+.logo {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.logo-icon {
+  display: inline-block;
+}
+
+.brand {
+  display: inline-block;
+}
+
+/* Category Navigation */
+.category-nav {
+  display: inline-block;
+}
+
+.categories {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.category-item {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.category-item span,
+.category-item.pointer a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Switch */
+.switch {
+  display: flex;
+  align-items: center;
+}
+
+.switch-disabled {
+  margin-right: 10px;
+}
+
+.switch-icon {
+  margin-right: 10px;
+}
+
+/* Navigation Icons */
+.nav-icon {
+  margin-left: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* UPC Header Actions */
+.upc-header-actions {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo */
+.index-module_logo__iGqYR {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Category Navigation */
+.index-module_cateNav__rbeMX {
+  display: inline-block;
+}
+
+/* Brand */
+.ubbrand {
+  display: inline-block;
+}
+
+/* Category Navigation */
+.index-module_cateNav__rbeMX {
+  display: flex;
+  align-items: center;
+}
+
+/* Navigation Icon */
+.nav-icon {
+  margin-right: 10px;
+}
+

@@ -4,15 +4,11 @@ import { Link } from "react-router-dom";
 import "./Bestseller.css";
 
 const Bestsellers = () => {
-  const handleNavigate = () => {
-    window.location.href = "https://in.urbanic.com/activity/best-sellers-3149";
-  };
-
   return (
     <div>
       <div className="inline-container">
         <h1 className="inline-heading">Best Sellers</h1>
-        <Link to="" onClick={handleNavigate} className="inline-link">
+        <Link to="/viewmore" className="inline-link">
           SHOP NOW
         </Link>
       </div>

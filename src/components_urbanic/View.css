@@ -1,25 +1,24 @@
 
-
-.card {
+.view {
     margin: 11px;
-    display:inline-block;
+    display:flexbox;
+    width: 400px;
   }
   
-  .card-image {
+  .view-image {
     width: 100%;
     object-fit: cover;
   }
   
-  .card-content {
+  .view-content {
     padding: 16px;
   }
   
-  .card-title {
+  .view-title {
     font-size: 1.2rem;
     margin-bottom: 8px;
   }
   
-  .card-description {
+  .view-description {
     color: #555;
   }
-  

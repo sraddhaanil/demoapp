@@ -1,0 +1,51 @@
+
+.img-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .img-card {
+    display: flex;
+    border-radius: 8px;
+    width: 900px; 
+    margin: auto;
+  }
+  
+  .img-image {
+    max-width: 500px; 
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .img-content {
+    flex: 1;
+    padding: 16px;
+  }
+  
+  .img-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .img-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 12px;
+  }
+  
+  .img-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 140px;
+  }
+  
+  .img-button:hover {
+    background-color: gray;
+  }
